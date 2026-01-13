@@ -9,7 +9,7 @@ function isNumero(n){
     } else {
         return false
     }
-}
+} 
 
 function inLista(n, l){
     if (l.indexOf(Number(n)) != -1) {
@@ -30,7 +30,7 @@ function adicionar() {
         window.alert ('Valor invalido ou ja encontrado na lista')
     }
     num.value = ''
-    num.focus()
+    num.focus()   
 }
 function finalizar() {
     if (valores.length == 0) {
