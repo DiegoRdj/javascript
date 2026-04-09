@@ -43,10 +43,10 @@ border-radius: 50px;
 }
 #item4{
 display: flex;
-gap: 30px;
-padding: 15px;
+gap: 5px;
+padding: 5px;
 }
-#item4 .num1{
+#item4 .num{
 
 padding: 34px 40px;
 flex-flow: row wrap;
@@ -57,83 +57,8 @@ border-radius: 550px;
  font-size: 1.3em;
 
 }
-#item4 .num2{
 
-padding: 34px 40px;
-flex-flow: row wrap;
-background-color: #272F39;
-color: #B7BDC3;
-border-radius: 550px;
- transition: 0.5s;
- font-size: 1.3em;
-
-}
-#item4 .num3{
-
-padding: 34px 40px;
-flex-flow: row wrap;
-background-color: #272F39;
-color: #B7BDC3;
-border-radius: 550px;
- transition: 0.5s;
- font-size: 1.3em;
-
-}
-#item4 .num4{
-
-padding: 34px 40px;
-flex-flow: row wrap;
-background-color: #272F39;
-color: #B7BDC3;
-border-radius: 550px;
- transition: 0.5s;
- font-size: 1.3em;
-
-
-}
-#item4 .num5{
-
-padding: 34px 40px;
-flex-flow: row wrap;
-background-color: #272F39;
-color: #B7BDC3;
-border-radius: 550px;
- transition: 0.5s;
- font-size: 1.3em;
-
-}
-#item4 .num1:hover{
-    background-color: white;
-    color: black;
-    transition: 0.5s;
-
-
-
-}
-#item4 .num2:hover{
-    background-color: white;
-    color: black;
-    transition: 0.5s;
-
-
-}
-#item4 .num3:hover{
-    background-color: white;
-    color: black;
-    transition: 0.5s;
-
-
-
-}
-#item4 .num4:hover{
-    background-color: white;
-    color: black;
-    transition: 0.5s;
-
-
-
-}
-#item4 .num5:hover{
+#item4 .num:hover{
     background-color: white;
     color: black;
     transition: 0.5s;
@@ -159,6 +84,12 @@ button:hover{
      transition: 0.5s;
 }
 
+
 .item{
   margin: 10px;
+}
+
+.ativo {
+    background-color: #FD7715 !important;
+    color: white !important;
 }
