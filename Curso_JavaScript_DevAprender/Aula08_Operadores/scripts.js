@@ -78,3 +78,18 @@ console.log("Operadores NOT")
 let candidatoRecusado =! podeAplicar
 
 console.log("Candidato recusado " + candidatoRecusado)
+
+console.log("====================================================")
+
+//COmparador de Não Booleanos
+
+console.log("Comparadores Não Booleanos")
+
+//falsy = undefined, null, 0, NaN, false, " "
+//Trythy 
+
+let corPersonalizada = "Vermelho"
+let corPadrao = "Azul"
+let corPerfil = corPersonalizada || corPadrao
+
+console.log(corPerfil)
