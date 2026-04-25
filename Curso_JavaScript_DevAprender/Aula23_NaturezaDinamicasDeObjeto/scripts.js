@@ -1,0 +1,1 @@
+//Natureza dinamica de objetos
