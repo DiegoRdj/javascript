@@ -1,0 +1,8 @@
+const num = Math.random()
+const num1 = Math.max(3, 6 ,8, 10)
+const num2 = Math.min(1, 2, 4, 6, 9)
+const num3 = Math.round(1000000001,2,3,4,41,5, 10, 6)
+console.log(num)
+console.log(num1)
+console.log(num2)
+console.log(num3)
