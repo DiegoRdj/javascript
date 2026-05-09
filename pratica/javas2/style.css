@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: url("faq-accordion-main/faq-accordion-main/assets/images/background-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #FAEEFF;
+}
+main{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+#container{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 40%;
+    flex-flow: column wrap;
+    box-shadow: 1px 1px 4px 1px black;
+}
+.itens{
+    margin: 25px;
+    display: flex;
+}
+
+#item1 img{
+    padding-bottom:5px ;
+    height: 70px;
+}
+#item1 h1{
+    font-size: 4em;
+    padding-left:30px ;
+}
+#item2 img{
+    margin-left: 35px;
+    cursor: pointer;
+}
+#item2 h1{
+    font-size: 1.8em;
+}
+#item3 h1{
+    font-size: 1.8em;
+}
+#item3 img{
+    margin-left: 400px;
+    cursor: pointer;
+}
+#item4 h1 {
+font-size: 1.8em;
+}
+#item4 img {
+    margin-left: 40px;
+    cursor: pointer;
+}
+#item5 h1{
+    font-size: 1.8em;
+}
+#item5 img {
+    margin-left: 40px;
+    cursor: pointer;
+}
