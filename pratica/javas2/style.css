@@ -47,9 +47,19 @@ main{
 }
 #item2 h1{
     font-size: 1.8em;
+    transition: 0.2s;
+}
+#item2 h1:hover{
+    color: #AD28EB;
+    transition: 0.2s;
 }
 #item3 h1{
     font-size: 1.8em;
+    transition: 0.2s;
+}
+#item3 h1:hover{
+    color: #AD28EB;
+    transition: 0.2s;
 }
 #item3 img{
     margin-left: 400px;
@@ -57,6 +67,11 @@ main{
 }
 #item4 h1 {
 font-size: 1.8em;
+transition: 0.2s;
+}
+#item4 h1:hover{
+    color: #AD28EB;
+    transition: 0.2s;
 }
 #item4 img {
     margin-left: 40px;
@@ -64,6 +79,11 @@ font-size: 1.8em;
 }
 #item5 h1{
     font-size: 1.8em;
+    transition: 0.2s;
+}
+#item5 h1:hover{
+    color: #AD28EB;
+    transition: 0.2s;
 }
 #item5 img {
     margin-left: 40px;
